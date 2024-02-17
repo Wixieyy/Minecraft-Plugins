@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="plugin-tutorial:jar">
+    <output-path>$USER_HOME$/Desktop/paper minecraft/plugins</output-path>
+    <root id="archive" name="plugin-tutorial.jar">
+      <element id="module-output" name="WixPlugins" />
+    </root>
+  </artifact>
+</component>
