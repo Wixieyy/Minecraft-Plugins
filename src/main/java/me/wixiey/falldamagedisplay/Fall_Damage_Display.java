@@ -13,6 +13,6 @@ public final class Fall_Damage_Display extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic|
+        // Plugin shutdown logic
     }
 }

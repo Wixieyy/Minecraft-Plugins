@@ -1,5 +1,6 @@
 package me.wixiey.falldamagedisplay;
 
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -12,8 +13,9 @@ public class FallDamage implements Listener {
         if (event.getCause().equals(EntityDamageEvent.DamageCause.FALL)) {
             Player player = (Player) event.getEntity();
 
-            player.sendMessage("You took " + (int) event.getDamage() + " fall damage!");
-
+//            if (event.getEntity() == player && event.getDamage() > 4) {
+                player.sendMessage("" +  (player.getHealth() - event.getDamage()) + 3);
+//            }
         }
     }
 }
