@@ -1,0 +1,4 @@
+name: Fall-Damage-Display
+version: '1.0-SNAPSHOT'
+main: me.wixiey.falldamagedisplay.Fall_Damage_Display
+api-version: '1.20'
