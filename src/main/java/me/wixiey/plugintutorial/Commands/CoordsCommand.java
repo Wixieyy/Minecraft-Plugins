@@ -14,7 +14,7 @@ public class CoordsCommand implements CommandExecutor {
 
             if (commandSender instanceof Player) {
                 Player p = (Player) commandSender;
-                p.sendMessage(ChatColor.YELLOW + "Current coordinates are: X: " + (int) p.getX() + "  Y: " + (int) p.getY() + "  Z: " + (int) p.getZ());
+                p.sendMessage("Current coordinates are: X: " + (int) p.getX() + "  Y: " + (int) p.getY() + "  Z: " + (int) p.getZ());
             }
 
         return true;

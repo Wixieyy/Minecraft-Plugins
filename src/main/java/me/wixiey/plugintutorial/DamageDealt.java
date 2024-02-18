@@ -9,10 +9,9 @@ public class DamageDealt implements Listener {
 
     public void onDamageDealtEvent (EntityDamageEvent event) {
 
-        Player player = (Player) event.getEntity();
-        if (event.getEntity() != player) {
-            Bukkit.getServer().broadcastMessage("testing");
-        }
+//        Player player = (Player) event.getEntity();
+//        Bukkit.getServer().broadcastMessage("testing");
+
 
     }
 }
