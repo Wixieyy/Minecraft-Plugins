@@ -15,7 +15,7 @@ public class FallDamage implements Listener {
             Player player = (Player) event.getEntity();
 
             if (event.getEntity() == player && event.getDamage() > 10) {
-                player.sendMessage(ChatColor.RED + "" + (int) ((20 - event.getDamage()) / 2) + " more blocks and you would have died.");
+                player.sendMessage(ChatColor.RED + "" + (int) ((20 - event.getDamage()) / 2) + " more blocks and you would have died!");
             }
         }
     }
