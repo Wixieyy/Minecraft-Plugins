@@ -13,7 +13,7 @@ public class PlayerTrySleepListeners implements Listener {
         String name = event.getPlayer().getName();
         Player player = event.getPlayer();
         if (!player.isSleeping()) {
-            Bukkit.getServer().broadcastMessage(name + " is trying to sleep.");
+            Bukkit.getServer().broadcastMessage(name + " is trying to sleep..");
         }
     }
 }
