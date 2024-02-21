@@ -1,0 +1,4 @@
+name: Farming-plugin
+version: '${project.version}'
+main: me.wixiey.farmingplugin.Farming_plugin
+api-version: '1.20'
